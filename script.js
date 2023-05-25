@@ -10,7 +10,7 @@ function func(input_digit,map,arr,asf) {
 		arr.push(asf);
 		return;
 	}
-	let digit = input_digit.charAt(0);
+	let digit = input_digit.charAt(0)-'0';
 	let str = map[digit];
 	for(let i=0;i<str.length;i++){
 		func(ques.substring(1),map,arr,asf+str.charAt(i));
