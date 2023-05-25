@@ -16,5 +16,5 @@ function func(input_digit,map,arr,asf) {
 		func(ques.substring(1),map,arr,asf+str.charAt(i));
 	}
 }
-
+console.log(letterCombinations());
 module.exports = letterCombinations;
